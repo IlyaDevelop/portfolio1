@@ -1,0 +1,698 @@
+body{
+    font-family: sans-serif;
+    min-width: 320px;
+}
+header{
+    height: 100%;
+    background: url(img/Group\ 94.png) no-repeat;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-size: 100%;
+}
+@media (min-width: 1177px){
+    header{
+        width: 100%;
+        background-size: cover;
+    }
+}
+@media (min-width: 840px){
+    header{
+        width: 100%;
+        background-size: cover;
+    }
+}
+span{
+    background-color: white;
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    margin-top: 80px;
+    border-radius: 2px;
+    margin-top: 100px;
+}
+.burger1{
+    position: absolute;
+    margin-top: 8px;
+}
+.burger2{
+    margin-top: 15px;
+}
+.burger3{
+    margin-top: 22px;
+}
+.menus{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+.media{
+    color: white;
+    margin-top: 110px;
+}
+.media p{
+    transform: rotate(-90deg);
+    margin-left: -36px;
+    margin-top: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.media ul{
+    list-style-type: none;
+    margin-left: -118px;
+    margin-top: 140px;
+}
+.media_line{
+    background-color: white;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-top: 280px;
+}
+i{
+    width: 1.33px;
+    height: 1.33px;
+    cursor: pointer;
+}
+.circle{
+    background-color: #FFA501;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 3px;
+}
+.info {
+    color: white;
+    margin-top: -270px;
+    margin-left: 300px;
+}
+.info h1{
+    line-height: 60px;
+    font-size: 48px;
+}
+.info h5{
+    line-height: 24px;
+}
+.porfolio{
+    background-color: #FFA501;
+    width: 135px;
+    height: 45px;
+    border: 1px solid #FFA501;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+    cursor: pointer;
+}
+.about_me{
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+}
+.information{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1060px;
+    margin-left: 700px;
+}
+.iam{
+    border: 1px solid black;
+}
+.my_photo{
+    margin-left: 350px;
+}
+h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+.skill_title{
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    display: inline;
+}
+.skill_desc{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+}
+.about_myself{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #000000;
+    width: 570px;
+}
+.yel_line{
+    width: 60px;
+    height: 3px;
+    background-color: #FFA501;
+    position: absolute;
+    margin-top: 1px;
+    border-radius: 3px;
+}
+.my_desc{
+    margin-left: 90px;
+}
+.web_circle{
+    background-color: #FFA501;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; 
+    margin-top: -9px;
+    margin-left: -12px;
+    position: absolute;
+    z-index: -1;
+}
+.skills{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 850px;
+}
+.comp{
+    z-index: 1110;
+    margin-left: 6px;
+}
+.dev_icon{
+    position: absolute;
+}
+.web_titles{
+    margin-left: 45px;
+}
+.mobile{
+    margin-left: 300px;
+    margin-top: -267px;
+    width: 300px;
+    position: absolute;
+}
+.my_help{
+    position: relative;
+    text-align: center;
+    padding-top: 1700px;
+}
+.into_circle{
+    font-weight: bold;
+    word-spacing: none;
+}
+.an_circle{
+    background-color: #FFA501;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    z-index: -1;    
+    position: relative;
+    margin-top: 5px;
+    padding-top: -5px;
+}
+.help_title{
+    color: #000000;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.yellow_line{
+    width: 60px;
+    height: 3px;
+    background-color: #FFA501;
+    position: absolute;
+    margin-top: 1px;
+    border-radius: 3px;
+    margin-left: -27px;
+}
+.main_help{
+    margin-top: 20px;
+}
+.education_tit{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 30px;
+    display: flex;
+    justify-items: left;
+    padding-top: 70px;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+.tree{
+    width: 412px;
+    height: 0px;
+    position: absolute;
+    border: 0.1px solid #0f0f0f;
+    transform: rotate(90deg);
+    margin-left: -235px;
+    margin-top: 200px;
+    z-index: -1;
+}
+.circle_ed{
+    background-color: #FFA501;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;     
+    position: absolute;
+    display: flex;
+    justify-self: start;
+    margin-top: -35px;
+    margin-left: -45px;
+}
+.college{
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 65px;
+}
+.ed_icon{
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 13px;
+}
+.educ_desc{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    font-style: normal;
+    margin-top: -7px;
+    width: 450px;
+   
+}
+.educ_titles{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.anot{
+    margin-top: 130px;
+}
+.univer{
+    margin-top: -10px;
+}
+.connect{
+    width: 65px;
+    height: 0px;
+    position: absolute;
+    border: 0.1px solid #474747;
+    transform: rotate(180deg);
+    margin-left: -583px;
+}
+.udemy{
+    margin-top: 270px;
+    margin-left: 35px;
+}
+.exper{
+    position: absolute;
+    margin-top: -517px;
+    margin-left: 700px;
+}
+.exp_icon{
+    margin-top: 10px;
+    position: absolute;
+}
+.job_exp{
+    margin-top: 70px;   
+    margin-left: 40px;
+}
+.design_exp{
+    margin-top: 70px;
+    margin-left: 33px;
+}
+.connect1{
+    width: 65px;
+    height: 0px;
+    position: absolute;
+    border: 0.1px solid #474747;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: left;
+    margin-top: 295px;
+    margin-left: -29px;
+}
+.connect2{
+    width: 65px;
+    height: 0px;
+    position: absolute;
+    border: 0.1px solid #474747;
+    transform: rotate(180deg);
+    display: flex;
+    margin-top: 83px;
+    margin-left: -30px;
+    z-index: -2;
+}
+.connect3{
+    width: 65px;
+    height: 0px;
+    position: absolute;
+    border: 0.1px solid #474747;
+    transform: rotate(180deg);
+    display: flex;
+    margin-left: -30px;
+    margin-top: 88px;
+}
+td{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px; 
+}
+tr{
+    height: 270px;
+}
+table{
+    border: 1px  solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+.the_name{
+    width: 214px;
+    color: #000000;
+    line-height: 21px;
+}
+.his_work{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+}
+main{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.circle_1{
+    background-color: #FFA501;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -8px;
+    padding-top: 8px;
+}
+.begin{
+    text-align: center;
+}
+.one_word{
+    margin-top: -0px;
+    margin-left: 38px;
+    background-color: transparent;
+}
+.knowledges{
+    margin-left: 10px;
+}
+.card2{
+    position: absolute;
+    border: 1px solid black;
+    width: 270px;
+}
+.cards{
+    list-style: none;
+    display: flex; 
+    flex-direction: row;
+}
+.card1{
+    padding: 10px;
+    border: 1px solid rgb(99, 98, 98);
+    width: 290px;
+    height: 310px;
+    padding-top: 30px;
+}
+.bootstrap{
+    margin-top: -1px;
+}
+.javascript{
+    margin-top: 18px;
+}
+.jquery{
+    margin-top: 27px;
+}
+.wordpress{
+    margin-top: -24px;
+}
+.second_row{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 302px;
+}
+.first_row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+}
+.hard_skills{
+    margin-top: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.site_circle{
+    width: 250px;
+    height: 250px;
+    background-color: #FFA501;
+    position: relative;
+    border-radius: 50%;
+}
+.web_site{
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    background-color: #E8E4DE;
+    width: 350px;
+    height: 14px;
+    border-radius: 5px;
+}
+.load{
+    background-color: #FFA501;
+    width: 100%;
+    height: 14px;
+    border-radius: 5px;
+}
+.perc{
+    font-size: 13px;
+    color: #000000;
+    line-height: 21px;
+    font-weight: bold;
+    margin-left: 155px;
+}
+.load_cret{ 
+    background-color: #FFA501;
+    width: 75%;
+    height: 14px;
+    border-radius: 5px;
+}
+.load_app{
+    background-color: #FFA501;
+    width: 85%;
+    height: 14px;
+    border-radius: 5px;
+}
+.load_des{
+    background-color: #FFA501;
+    width: 90%;
+    height: 14px;
+    border-radius: 5px;
+}
+.load_soft{
+    background-color: #FFA501;
+    width: 95%;
+    height: 14px;
+    border-radius: 5px;
+}
+.second_block{
+    margin-left: 100px;
+}
+.third_block{
+    margin-left: 70px;
+}
+.perc2{
+    margin-left: 187px;
+}
+.perc3{
+    margin-left: 103px;
+}
+.perc4{
+    margin-left: 145px;
+}
+.perc5{
+    margin-left: 145px;
+}
+.perc6{
+    margin-left: 234px;
+}
+.portfolio{
+    margin-top: 150px;
+}
+.my_projects{
+    text-align: center;
+}
+.my_portfolio{
+    margin-top: 70px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.second_proj{
+    margin-left: 5px;
+}
+.third_proj{
+    margin-left: 5px;
+}
+.fourth_proj{
+    margin-left: 5px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: -280px;
+}
+.sixth{
+    margin-left: 5px;
+}
+.price{
+    margin-top: 100px;
+}
+.price_title{
+    text-align: center;
+}
+.circle_price{
+    background-color: #FFA501;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;   
+    position: absolute;
+    margin-top: -2px;
+    margin-left: -40px;
+}
+.price_tag{
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 310px;
+}
+.name_work{
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-weight: bold;
+}
+.prices{
+    margin: 100px auto;       
+    display: flex;
+    flex-direction: row;
+}
+.right-side{
+    margin-left: 300px;
+}
+.individual{
+    margin-left: 255px;
+}
+.price_tag1{
+    margin-left: 304px;
+}
+.price_tag2{
+    margin-left: 308px;
+}
+.price_tag13{
+    margin-left: 278px;
+}
+.price_tag14{
+    margin-left: 278px;
+}
+footer{
+    margin-top: 150px;
+}
+.callback_me{
+    line-height: 60px;
+    font-size: 36px;
+    font-weight: bold;   
+}
+.ways_to_call{
+    color: #000000;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: bold;
+}
+.soc_media i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.instagram{
+    margin-left: 30px;
+}
+.telegram{
+    margin-left: 40px;
+}
+.message{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+textarea{
+    width: 580px;
+    height: 190px;
+    border: 1px solid #000000;
+}
+input{
+    width: 280px;
+    height: 45px;
+    border: 1px solid #000000;
+    z-index: -1;
+}
+.your_name{
+    width: 110px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -10px;
+    z-index: 1;
+    padding-left: 15px;
+    padding-top: -10px;
+    background-color: #ffffff;
+    height: 18px;
+}
+.your_name2{
+    margin-left: 35px;
+}
+.your_name3{
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    background-color: #ffffff;
+    height: 18px;
+    margin-left: -557px;
+    margin-top: 60px;
+    padding-left: 11px;
+}
+.send_mess{
+    margin-left: 100px;
+}
+.message_button{
+    width: 219px;
+    height: 45px;
+    background-color: #FFA501;
+    box-shadow: 0px 4px 4px rgba(212, 212, 212, 0.1);
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.hole{
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+}
+.footer_photo{
+    border: 1px solid #000000;
+}
