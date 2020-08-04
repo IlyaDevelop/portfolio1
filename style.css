@@ -3,17 +3,14 @@ body{
     min-width: 320px;
 }
 header{
-    background: url(img/Group\ 94.png) no-repeat center/contain;
+    background: url(img/Group\ 94.png) center no-repeat;
     width: 100%;
-    height: 100%;
-    position: absolute;
+    height: 1000px;
+    -webkit-background-size: cover;
     background-size: cover;
-}
-@media (max-width: 768px) {
-    header{
-        background-size: cover;
-        width: 179%;
-    }
+    margin: 0;
+    padding: 0;
+    position: absolute;
 }
 span{
     background-color: white;
