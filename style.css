@@ -8,17 +8,11 @@ header{
     margin: 0;
     padding: 0;
     position: absolute;
-    background-size: 100%;
+    background-size: cover;
+    width: 100%;
 }
-@media (min-width: 1177px){
+@media (max-width: 320px){
     header{
-        width: 100%;
-        background-size: cover;
-    }
-}
-@media (min-width: 840px){
-    header{
-        width: 100%;
         background-size: cover;
     }
 }
